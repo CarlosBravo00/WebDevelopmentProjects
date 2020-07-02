@@ -1,10 +1,66 @@
+header{
+  background-color: #479fd1;;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
 h1{
-    color: #000000;
-    font-size: 25px;
-    font-family: Arial;
-    font-style: italic;
-     background-color: #EBD95A;
-     text-align: center;
-     /* Heading orange */
-   }
-  
+  background-color: #479fd1;
+  font-size: 200%;
+}
+
+nav{
+  display: none;
+
+  overflow: auto;
+  font-variant: small-caps;
+  font-size: 110%;
+  font-family: Arial, "Times New Roman";
+}
+
+body{
+  background-color: rgb(224, 224, 224);
+  font-size: 150%;
+  margin: 2%
+}
+
+section{
+  width: 32%;
+  display: inline-block;
+  float: left;
+  margin-right: 1%;
+  padding-bottom: 3%;
+}
+
+h2{
+  background-color: #479fd1;
+  font-size: 150%;
+}
+
+details{
+  font-style: italic;
+}
+
+summary{
+  font-style: normal;
+}
+
+
+footer{
+  background-color:  #479fd1;
+  clear: both;
+  text-align: center;
+}
+
+a:hover,a:focus{
+  background-color: #479fd1;
+  color: #000000;
+}
+
+a:active{
+  border: 3px solid #000000;
+}
+
+ul{
+  list-style-type: square;
+}

@@ -1,27 +1,42 @@
-h1{
-    background-color: #D1BC45;
-    font-size: 150%;
-    text-align: center;
+* {
+    border:10px;
 }
+
 header{
     background-color: #D1BC45;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+h1{
+    background-color: #D1BC45;
+    font-size: 200%;
 }
 
 nav{
-    text-align: center;
-    background-color: #D1BC45;
-    height: 500px;
-    display: inline-block;
     overflow: auto;
     font-variant: small-caps;
-    font-size: 125%;
+    font-size: 110%;
     font-family: Arial, "Times New Roman";
-    display: block;
-    float: right;
-    width: 100px;
 }
-a {
-    display: block  
+
+body{
+    background-color: #f2fdc2;
+    font-size: 150%;
+    margin: 2%
+}
+
+section{
+    width: 32%;
+    display: inline-block;
+    float: left;
+    margin-right: 1%;
+    padding-bottom: 3%;
+}
+
+h2{
+    background-color: #D1BC45;
+    font-size: 150%;
 }
 
 details{
@@ -32,15 +47,39 @@ summary{
     font-style: normal;
 }
 
-h2{
-    background-color: #D1BC45;
-    font-size: 150%;
-    text-align: left;
-    display: block;
-    height: 30px;
-    width: 100%;
-}
 
 footer{
     background-color:  #D1BC45;
+    clear: both;
+    padding-top: 1%;
+}
+
+img{
+    width: 8%;
+}
+
+nav a{
+    display: block;
+    font-weight: bold;
+    color:#ffffff;
+    background-color: #756925;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    margin: 0 auto;
+
+}
+
+a:hover,a:focus{
+    background-color: #d1bc45;
+    color: #000000;
+}
+
+a:active{
+    border: 3px solid #000000;
+}
+
+ul{
+    list-style-type: square;
 }
