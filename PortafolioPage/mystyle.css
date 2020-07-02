@@ -1,19 +1,10 @@
 h1{
-    color:white;
+    color: #000000;
     font-size: 25px;
     font-family: Arial;
-     background-color: blue;
+    font-style: italic;
+     background-color: #EBD95A;
+     text-align: center;
      /* Heading orange */
    }
-
-h2{
-    color:white;
-    font-size: 15px;
-    font-family: sans-serif;
-     background-color:black;
-     /* Heading orange */
-}
-
- 
-
- 
+  

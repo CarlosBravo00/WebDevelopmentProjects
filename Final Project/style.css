@@ -1,0 +1,46 @@
+h1{
+    background-color: #D1BC45;
+    font-size: 150%;
+    text-align: center;
+}
+header{
+    background-color: #D1BC45;
+}
+
+nav{
+    text-align: center;
+    background-color: #D1BC45;
+    height: 500px;
+    display: inline-block;
+    overflow: auto;
+    font-variant: small-caps;
+    font-size: 125%;
+    font-family: Arial, "Times New Roman";
+    display: block;
+    float: right;
+    width: 100px;
+}
+a {
+    display: block  
+}
+
+details{
+    font-style: italic;
+}
+
+summary{
+    font-style: normal;
+}
+
+h2{
+    background-color: #D1BC45;
+    font-size: 150%;
+    text-align: left;
+    display: block;
+    height: 30px;
+    width: 100%;
+}
+
+footer{
+    background-color:  #D1BC45;
+}
