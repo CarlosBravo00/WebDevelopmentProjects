@@ -23,11 +23,6 @@ h1{
     font-size: 170%;
 }
 
-nav img{
-    width: 9%;
-    padding-left: 5px;
-}
-
 nav>a{
     display: inline-block;
     color:#000000;
@@ -47,7 +42,7 @@ nav>a:hover:not(.active) , nav>a:focus{
     transition-duration:0.5s,0.5s,0.5s,0.5s;
 
     color: rgb(255, 255, 255);
-    background-color: rgb(86, 105, 34);
+    background-color: #566922;
     width: 14%;
     text-decoration: underline;
 }   
@@ -65,7 +60,7 @@ main {
     float: left;
     padding-top: 1%;
     padding-left: 1%;
-    width: 65%;
+    width: 70%;
 }
 
 .left{
@@ -75,7 +70,6 @@ main {
     background-color: rgb(86, 105, 34);
 }
 
-
 .left img{
     margin: 15% 30px;
     width: 200px;
@@ -83,26 +77,61 @@ main {
     border: solid 2px #000000;
 }
 
+
 .left img:hover{
     transition-property:width;
     transition-duration:1s;
     width: 230px;
 }
 
-table.Teams{
-    border-spacing: 0;
-    border: 3PX solid #000000;
-    border-radius:5px;
-}
-.Teams tr:nth-child(odd){
-    background-color: #F2F2F2;
-}
-.Teams tr:nth-child(even){
-    background-color: rgb(179, 190, 149);
+/* Table Edditing HW3*/
+
+ .right table{
+    width: 90%;
+    border-spacing: 1%;
+    margin: 0 auto;
+
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    line-height: 3%;
 }
 
-.Teams td{
-    width:30%;
-    vertical-align:top;
-    border: 1px solid #000000;
+.right table th{
+    border-radius:7px 7px 0 0;
+    padding: 2%;
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-bottom: 3px solid #b1e053;
+
+    color: #ffffff;
+    background:linear-gradient(rgba(86,105,34,1), rgba(146,168,87,1));
+    /* browser prefixes */
+    -webkit-background:linear-gradient(rgba(86,105,34,1), rgba(146,168,87,1));
+    -moz-background:linear-gradient(rgba(86,105,34,1), rgba(146,168,87,1));
+    -o-background:linear-gradient(rgba(86,105,34,1), rgba(146,168,87,1));
+    
+} 
+.right table td{
+    border-radius:2px;
+    padding: 2%;
+    border: 1px solid #FFFFFF;
+    color: #6d6d6d;
+    background: #e4f5d4;
+
+    text-shadow: 0.2px 0.2px #000000;
+}
+
+.right table tr{
+    opacity: .8;
+    text-align: center;
+}
+
+.right table tr:hover{
+    opacity: 1;
+}
+
+.right table tr th:first-child, .right table tr td:first-child{
+    text-align: left;
 }
