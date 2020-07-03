@@ -2,14 +2,14 @@
     border:10px;
 }
 
-header{
+header,footer{
     background-color: #D1BC45;
+    background:linear-gradient(#D1BC45, #f0fcbb);
     text-align: center;
     padding-bottom: 2%;
 }
 
 h1{
-    background-color: #D1BC45;
     font-size: 200%;
 }
 
@@ -23,13 +23,21 @@ nav{
 body{
     background-color: #f2fdc2;
     font-size: 150%;
-    margin: 2%
+    margin: 2%;
 }
 
-section{
-    width: 32%;
-    display: inline-block;
+#Achiev,#FavFood,#AboutMe{
+    width: 49%;
+    display: block;
     float: left;
+}
+
+#Achiev{
+    float: right;
+}
+
+#AboutMe{
+    width: 100%;
     margin-right: 1%;
     padding-bottom: 3%;
 }
@@ -49,7 +57,6 @@ summary{
 
 
 footer{
-    background-color:  #D1BC45;
     clear: both;
     padding-top: 1%;
 }
@@ -59,16 +66,13 @@ img{
 }
 
 nav a{
-    display: block;
+    display: inline-block;
     font-weight: bold;
     color:#ffffff;
     background-color: #756925;
-    width: 200px;
+    width: 20%;
     text-align: center;
-    padding: 4px;
-    text-decoration: none;
     margin: 0 auto;
-
 }
 
 a:hover,a:focus{
