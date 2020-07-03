@@ -1,11 +1,22 @@
+body{
+  background-color: rgb(224, 224, 224);
+  font-size: 120%;
+  margin: 0%
+}
+
 header{
   background-color: #479fd1;;
   text-align: center;
-  border-radius: 5px;
+  border-bottom: solid black 3px;
+        
+
+  position: fixed;
+  z-index: 3;
+  top:0;
+  width: 100%;
 }
 
 nav{
-  display: none;
   font-variant: small-caps;
   font-size: 110%;
   font-family: Arial, "Times New Roman";
@@ -15,7 +26,7 @@ nav{
 
 h1{
   background-color: #479fd1;
-  font-size: 200%;
+  font-size: 150%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 5px;
 }
@@ -27,10 +38,17 @@ h2{
   padding: 5px;
 }
 
-body{
-  background-color: rgb(224, 224, 224);
-  font-size: 120%;
-  margin: 2%
+main {
+  padding-top: 120px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#AboutMe{
+  display: block;
+  width: 45%;
+  float: left;
+  margin-right: 4%;
 }
 
 #ProgrammingLang,#Technologies{
@@ -43,18 +61,13 @@ progress{
   width: 70%;
 } 
 
-#AboutMe{
-  display: block;
-  width: 45%;
-  float: left;
-  margin-right: 4%;
-}
 
 footer{
   background-color:  #479fd1;
   clear: both;
   text-align: center;
 }
+
 
 a:hover,a:focus,a:active{
   background-color: #479fd1;
