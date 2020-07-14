@@ -1,2 +1,2 @@
 # WebDevelopmentProjects
-Web Develpment apps 
+Personal front-end web development pages 
