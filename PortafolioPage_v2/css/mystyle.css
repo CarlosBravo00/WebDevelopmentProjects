@@ -5,7 +5,7 @@ body{
 }
 
 header{
-  background-color: #52c0ff;
+  background-color: #2e566d;
   background-image: url("../imgs/background.jpg");
   background-color: #707070; 
   background-size: cover;
@@ -36,7 +36,7 @@ h1{
 
 h2{
   text-align: center;
-  background-color: #52c0ff;
+  background-color: #d8d8d8;
   font-size: 150%;
   border-radius: 5px;
   padding: 5px;
@@ -51,7 +51,11 @@ main {
 section{
   display: block;
   width: 80%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-bottom: 3%;
+  margin-right: auto;
+  margin-top: -2%;
+  
 }
 
 section p{
@@ -84,7 +88,7 @@ section img{
   border-bottom: 3px solid #3e86af;
 
   color: #ffffff;
-  background:linear-gradient(#52c0ff, #9cd6f8);  
+  background:linear-gradient(#2e566d, #9cd6f8);  
 } 
 .Lang td{
   border-radius:2px;
@@ -101,10 +105,15 @@ section img{
   text-align: left;
 }
 
+ul{
+  display: block;
+  margin-left: 35%;
+}
+
 
 
 footer{
-  background-color:  #52c0ff;
+  background-color:  #618aa1;
   clear: both;
   text-align: center;
 }
@@ -126,8 +135,8 @@ footer a img{
 }
 
 a:hover,a:focus,a:active{
-  background-color: #52c0ff;
-  color: #000000;
+  background-color: #557d94;
+  color: #ffffff;
   border: 3px solid #000000;
 }
 
